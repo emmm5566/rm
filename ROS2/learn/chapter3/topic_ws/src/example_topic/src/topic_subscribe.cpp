@@ -24,8 +24,8 @@ public:
     {
         RCLCPP_INFO(this->get_logger(), "节点 '%s' 启动", node_name.c_str());
         // 创建话题订阅者
-        //"command"和发布者topic_name一致
-        command_subscribe_ = this->create_subscription<std_msgs::msg::String>("command", 10, 
+        //"control_command"和发布者topic_name一致
+        command_subscribe_ = this->create_subscription<std_msgs::msg::String>("control_command", 10, 
             std::bind(&TopicSubsribe::command_callback, this, std::placeholders::_1));
     }
 };
@@ -41,3 +41,19 @@ int main(int argc, char ** argv)
 
     return 0;
 }
+
+
+
+
+
+// 创建订阅者
+// create_subscription()
+// template<typename MessageT , typename CallbackT , typename AllocatorT , typename CallbackMessageT , typename SubscriptionT , typename MessageMemoryStrategyT >
+// std::shared_ptr< SubscriptionT > rclcpp::Node::create_subscription 	
+// ( 	const std::string &  	topic_name,
+// 		const rclcpp::QoS &  	qos,
+// 		CallbackT &&  	callback,
+// 		const SubscriptionOptionsWithAllocator< AllocatorT > &  	options = SubscriptionOptionsWithAllocator<AllocatorT>(),
+// 		typename MessageMemoryStrategyT::SharedPtr  	msg_mem_strat = (      MessageMemoryStrategyT::create_default()    ) 
+// 	) 
+// 参数：话题名称、Qos和回调函数，后面两个都是默认的参数	

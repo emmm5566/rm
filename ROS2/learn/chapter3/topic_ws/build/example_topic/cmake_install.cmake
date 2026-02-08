@@ -1,8 +1,8 @@
-# Install script for directory: /home/emmm/Desktop/scnu_rm/ROS2/learn/chapter3/topic_ws/src/example_topic
+# Install script for directory: /home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/src/example_topic
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/emmm/Desktop/scnu_rm/ROS2/learn/chapter3/topic_ws/install/example_topic")
+  set(CMAKE_INSTALL_PREFIX "/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/example_topic")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,7 +49,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/example_topic/topic_publisher"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/example_topic" TYPE EXECUTABLE FILES "/home/emmm/Desktop/scnu_rm/ROS2/learn/chapter3/topic_ws/build/example_topic/topic_publisher")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/example_topic" TYPE EXECUTABLE FILES "/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/example_topic/topic_publisher")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/example_topic/topic_publisher" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/example_topic/topic_publisher")
     file(RPATH_CHANGE
@@ -69,7 +69,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/example_topic/topic_subscribe"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/example_topic" TYPE EXECUTABLE FILES "/home/emmm/Desktop/scnu_rm/ROS2/learn/chapter3/topic_ws/build/example_topic/topic_subscribe")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/example_topic" TYPE EXECUTABLE FILES "/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/example_topic/topic_subscribe")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/example_topic/topic_subscribe" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/example_topic/topic_subscribe")
     file(RPATH_CHANGE
@@ -83,11 +83,51 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/emmm/Desktop/scnu_rm/ROS2/learn/chapter3/topic_ws/build/example_topic/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/example_topic")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/example_topic/one_message_publisher" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/example_topic/one_message_publisher")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/example_topic/one_message_publisher"
+         RPATH "")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/example_topic" TYPE EXECUTABLE FILES "/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/example_topic/one_message_publisher")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/example_topic/one_message_publisher" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/example_topic/one_message_publisher")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/example_topic/one_message_publisher"
+         OLD_RPATH "/opt/ros/humble/lib:"
+         NEW_RPATH "")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/example_topic/one_message_publisher")
+    endif()
+  endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/emmm/Desktop/scnu_rm/ROS2/learn/chapter3/topic_ws/build/example_topic/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/example_topic")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/example_topic/one_message_subscribe" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/example_topic/one_message_subscribe")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/example_topic/one_message_subscribe"
+         RPATH "")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/example_topic" TYPE EXECUTABLE FILES "/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/example_topic/one_message_subscribe")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/example_topic/one_message_subscribe" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/example_topic/one_message_subscribe")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/example_topic/one_message_subscribe"
+         OLD_RPATH "/opt/ros/humble/lib:"
+         NEW_RPATH "")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/example_topic/one_message_subscribe")
+    endif()
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/example_topic/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/example_topic")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/example_topic/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/example_topic")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -95,7 +135,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_topic/environment" TYPE FILE FILES "/home/emmm/Desktop/scnu_rm/ROS2/learn/chapter3/topic_ws/build/example_topic/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_topic/environment" TYPE FILE FILES "/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/example_topic/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -103,42 +143,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_topic/environment" TYPE FILE FILES "/home/emmm/Desktop/scnu_rm/ROS2/learn/chapter3/topic_ws/build/example_topic/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_topic/environment" TYPE FILE FILES "/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/example_topic/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_topic" TYPE FILE FILES "/home/emmm/Desktop/scnu_rm/ROS2/learn/chapter3/topic_ws/build/example_topic/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_topic" TYPE FILE FILES "/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/example_topic/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_topic" TYPE FILE FILES "/home/emmm/Desktop/scnu_rm/ROS2/learn/chapter3/topic_ws/build/example_topic/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_topic" TYPE FILE FILES "/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/example_topic/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_topic" TYPE FILE FILES "/home/emmm/Desktop/scnu_rm/ROS2/learn/chapter3/topic_ws/build/example_topic/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_topic" TYPE FILE FILES "/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/example_topic/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_topic" TYPE FILE FILES "/home/emmm/Desktop/scnu_rm/ROS2/learn/chapter3/topic_ws/build/example_topic/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_topic" TYPE FILE FILES "/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/example_topic/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_topic" TYPE FILE FILES "/home/emmm/Desktop/scnu_rm/ROS2/learn/chapter3/topic_ws/build/example_topic/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_topic" TYPE FILE FILES "/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/example_topic/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/emmm/Desktop/scnu_rm/ROS2/learn/chapter3/topic_ws/build/example_topic/ament_cmake_index/share/ament_index/resource_index/packages/example_topic")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/example_topic/ament_cmake_index/share/ament_index/resource_index/packages/example_topic")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_topic/cmake" TYPE FILE FILES
-    "/home/emmm/Desktop/scnu_rm/ROS2/learn/chapter3/topic_ws/build/example_topic/ament_cmake_core/example_topicConfig.cmake"
-    "/home/emmm/Desktop/scnu_rm/ROS2/learn/chapter3/topic_ws/build/example_topic/ament_cmake_core/example_topicConfig-version.cmake"
+    "/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/example_topic/ament_cmake_core/example_topicConfig.cmake"
+    "/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/example_topic/ament_cmake_core/example_topicConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_topic" TYPE FILE FILES "/home/emmm/Desktop/scnu_rm/ROS2/learn/chapter3/topic_ws/src/example_topic/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_topic" TYPE FILE FILES "/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/src/example_topic/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -149,5 +189,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/emmm/Desktop/scnu_rm/ROS2/learn/chapter3/topic_ws/build/example_topic/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/example_topic/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

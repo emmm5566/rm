@@ -1,8 +1,8 @@
-# Install script for directory: /home/emmm/Desktop/scnu_rm/ROS2/learn/chapter3/topic_ws/src/custom_msg_nodes
+# Install script for directory: /home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/src/custom_msg_nodes
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/emmm/Desktop/scnu_rm/ROS2/learn/chapter3/topic_ws/install/custom_msg_nodes")
+  set(CMAKE_INSTALL_PREFIX "/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/custom_msg_nodes")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,12 +49,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/custom_msg_nodes/publisher"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/custom_msg_nodes" TYPE EXECUTABLE FILES "/home/emmm/Desktop/scnu_rm/ROS2/learn/chapter3/topic_ws/build/custom_msg_nodes/publisher")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/custom_msg_nodes" TYPE EXECUTABLE FILES "/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/custom_msg_nodes/publisher")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/custom_msg_nodes/publisher" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/custom_msg_nodes/publisher")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/custom_msg_nodes/publisher"
-         OLD_RPATH "/opt/ros/humble/lib:/home/emmm/Desktop/scnu_rm/ROS2/learn/chapter3/topic_ws/install/custom_interfaces/lib:"
+         OLD_RPATH "/opt/ros/humble/lib:/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/custom_interfaces/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/custom_msg_nodes/publisher")
@@ -69,12 +69,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/custom_msg_nodes/subscriber"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/custom_msg_nodes" TYPE EXECUTABLE FILES "/home/emmm/Desktop/scnu_rm/ROS2/learn/chapter3/topic_ws/build/custom_msg_nodes/subscriber")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/custom_msg_nodes" TYPE EXECUTABLE FILES "/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/custom_msg_nodes/subscriber")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/custom_msg_nodes/subscriber" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/custom_msg_nodes/subscriber")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/custom_msg_nodes/subscriber"
-         OLD_RPATH "/opt/ros/humble/lib:/home/emmm/Desktop/scnu_rm/ROS2/learn/chapter3/topic_ws/install/custom_interfaces/lib:"
+         OLD_RPATH "/opt/ros/humble/lib:/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/custom_interfaces/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/custom_msg_nodes/subscriber")
@@ -83,11 +83,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/emmm/Desktop/scnu_rm/ROS2/learn/chapter3/topic_ws/build/custom_msg_nodes/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/custom_msg_nodes")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/custom_msg_nodes/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/custom_msg_nodes")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/emmm/Desktop/scnu_rm/ROS2/learn/chapter3/topic_ws/build/custom_msg_nodes/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/custom_msg_nodes")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/custom_msg_nodes/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/custom_msg_nodes")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -95,7 +95,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/custom_msg_nodes/environment" TYPE FILE FILES "/home/emmm/Desktop/scnu_rm/ROS2/learn/chapter3/topic_ws/build/custom_msg_nodes/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/custom_msg_nodes/environment" TYPE FILE FILES "/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/custom_msg_nodes/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -103,42 +103,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/custom_msg_nodes/environment" TYPE FILE FILES "/home/emmm/Desktop/scnu_rm/ROS2/learn/chapter3/topic_ws/build/custom_msg_nodes/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/custom_msg_nodes/environment" TYPE FILE FILES "/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/custom_msg_nodes/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/custom_msg_nodes" TYPE FILE FILES "/home/emmm/Desktop/scnu_rm/ROS2/learn/chapter3/topic_ws/build/custom_msg_nodes/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/custom_msg_nodes" TYPE FILE FILES "/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/custom_msg_nodes/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/custom_msg_nodes" TYPE FILE FILES "/home/emmm/Desktop/scnu_rm/ROS2/learn/chapter3/topic_ws/build/custom_msg_nodes/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/custom_msg_nodes" TYPE FILE FILES "/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/custom_msg_nodes/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/custom_msg_nodes" TYPE FILE FILES "/home/emmm/Desktop/scnu_rm/ROS2/learn/chapter3/topic_ws/build/custom_msg_nodes/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/custom_msg_nodes" TYPE FILE FILES "/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/custom_msg_nodes/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/custom_msg_nodes" TYPE FILE FILES "/home/emmm/Desktop/scnu_rm/ROS2/learn/chapter3/topic_ws/build/custom_msg_nodes/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/custom_msg_nodes" TYPE FILE FILES "/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/custom_msg_nodes/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/custom_msg_nodes" TYPE FILE FILES "/home/emmm/Desktop/scnu_rm/ROS2/learn/chapter3/topic_ws/build/custom_msg_nodes/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/custom_msg_nodes" TYPE FILE FILES "/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/custom_msg_nodes/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/emmm/Desktop/scnu_rm/ROS2/learn/chapter3/topic_ws/build/custom_msg_nodes/ament_cmake_index/share/ament_index/resource_index/packages/custom_msg_nodes")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/custom_msg_nodes/ament_cmake_index/share/ament_index/resource_index/packages/custom_msg_nodes")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/custom_msg_nodes/cmake" TYPE FILE FILES
-    "/home/emmm/Desktop/scnu_rm/ROS2/learn/chapter3/topic_ws/build/custom_msg_nodes/ament_cmake_core/custom_msg_nodesConfig.cmake"
-    "/home/emmm/Desktop/scnu_rm/ROS2/learn/chapter3/topic_ws/build/custom_msg_nodes/ament_cmake_core/custom_msg_nodesConfig-version.cmake"
+    "/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/custom_msg_nodes/ament_cmake_core/custom_msg_nodesConfig.cmake"
+    "/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/custom_msg_nodes/ament_cmake_core/custom_msg_nodesConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/custom_msg_nodes" TYPE FILE FILES "/home/emmm/Desktop/scnu_rm/ROS2/learn/chapter3/topic_ws/src/custom_msg_nodes/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/custom_msg_nodes" TYPE FILE FILES "/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/src/custom_msg_nodes/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -149,5 +149,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/emmm/Desktop/scnu_rm/ROS2/learn/chapter3/topic_ws/build/custom_msg_nodes/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/custom_msg_nodes/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

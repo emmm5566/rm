@@ -1,8 +1,8 @@
-# Install script for directory: /home/emmm/Desktop/scnu_rm/ROS2/learn/chapter3/topic_ws/src/demo_turtlesim
+# Install script for directory: /home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/src/demo_turtlesim
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/emmm/Desktop/scnu_rm/ROS2/learn/chapter3/topic_ws/install/demo_turtlesim")
+  set(CMAKE_INSTALL_PREFIX "/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/demo_turtlesim")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,7 +49,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/demo_turtlesim/turtle_circle"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/demo_turtlesim" TYPE EXECUTABLE FILES "/home/emmm/Desktop/scnu_rm/ROS2/learn/chapter3/topic_ws/build/demo_turtlesim/turtle_circle")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/demo_turtlesim" TYPE EXECUTABLE FILES "/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/demo_turtlesim/turtle_circle")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/demo_turtlesim/turtle_circle" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/demo_turtlesim/turtle_circle")
     file(RPATH_CHANGE
@@ -69,7 +69,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/demo_turtlesim/turtle_control"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/demo_turtlesim" TYPE EXECUTABLE FILES "/home/emmm/Desktop/scnu_rm/ROS2/learn/chapter3/topic_ws/build/demo_turtlesim/turtle_control")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/demo_turtlesim" TYPE EXECUTABLE FILES "/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/demo_turtlesim/turtle_control")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/demo_turtlesim/turtle_control" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/demo_turtlesim/turtle_control")
     file(RPATH_CHANGE
@@ -83,11 +83,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/emmm/Desktop/scnu_rm/ROS2/learn/chapter3/topic_ws/build/demo_turtlesim/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/demo_turtlesim")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/demo_turtlesim/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/demo_turtlesim")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/emmm/Desktop/scnu_rm/ROS2/learn/chapter3/topic_ws/build/demo_turtlesim/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/demo_turtlesim")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/demo_turtlesim/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/demo_turtlesim")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -95,7 +95,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/demo_turtlesim/environment" TYPE FILE FILES "/home/emmm/Desktop/scnu_rm/ROS2/learn/chapter3/topic_ws/build/demo_turtlesim/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/demo_turtlesim/environment" TYPE FILE FILES "/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/demo_turtlesim/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -103,42 +103,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/demo_turtlesim/environment" TYPE FILE FILES "/home/emmm/Desktop/scnu_rm/ROS2/learn/chapter3/topic_ws/build/demo_turtlesim/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/demo_turtlesim/environment" TYPE FILE FILES "/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/demo_turtlesim/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/demo_turtlesim" TYPE FILE FILES "/home/emmm/Desktop/scnu_rm/ROS2/learn/chapter3/topic_ws/build/demo_turtlesim/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/demo_turtlesim" TYPE FILE FILES "/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/demo_turtlesim/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/demo_turtlesim" TYPE FILE FILES "/home/emmm/Desktop/scnu_rm/ROS2/learn/chapter3/topic_ws/build/demo_turtlesim/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/demo_turtlesim" TYPE FILE FILES "/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/demo_turtlesim/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/demo_turtlesim" TYPE FILE FILES "/home/emmm/Desktop/scnu_rm/ROS2/learn/chapter3/topic_ws/build/demo_turtlesim/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/demo_turtlesim" TYPE FILE FILES "/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/demo_turtlesim/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/demo_turtlesim" TYPE FILE FILES "/home/emmm/Desktop/scnu_rm/ROS2/learn/chapter3/topic_ws/build/demo_turtlesim/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/demo_turtlesim" TYPE FILE FILES "/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/demo_turtlesim/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/demo_turtlesim" TYPE FILE FILES "/home/emmm/Desktop/scnu_rm/ROS2/learn/chapter3/topic_ws/build/demo_turtlesim/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/demo_turtlesim" TYPE FILE FILES "/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/demo_turtlesim/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/emmm/Desktop/scnu_rm/ROS2/learn/chapter3/topic_ws/build/demo_turtlesim/ament_cmake_index/share/ament_index/resource_index/packages/demo_turtlesim")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/demo_turtlesim/ament_cmake_index/share/ament_index/resource_index/packages/demo_turtlesim")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/demo_turtlesim/cmake" TYPE FILE FILES
-    "/home/emmm/Desktop/scnu_rm/ROS2/learn/chapter3/topic_ws/build/demo_turtlesim/ament_cmake_core/demo_turtlesimConfig.cmake"
-    "/home/emmm/Desktop/scnu_rm/ROS2/learn/chapter3/topic_ws/build/demo_turtlesim/ament_cmake_core/demo_turtlesimConfig-version.cmake"
+    "/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/demo_turtlesim/ament_cmake_core/demo_turtlesimConfig.cmake"
+    "/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/demo_turtlesim/ament_cmake_core/demo_turtlesimConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/demo_turtlesim" TYPE FILE FILES "/home/emmm/Desktop/scnu_rm/ROS2/learn/chapter3/topic_ws/src/demo_turtlesim/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/demo_turtlesim" TYPE FILE FILES "/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/src/demo_turtlesim/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -149,5 +149,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/emmm/Desktop/scnu_rm/ROS2/learn/chapter3/topic_ws/build/demo_turtlesim/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/demo_turtlesim/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

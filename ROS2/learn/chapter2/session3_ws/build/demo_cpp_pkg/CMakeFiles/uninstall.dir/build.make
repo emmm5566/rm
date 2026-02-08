@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/emmm/Desktop/ROS2/fishros/chapter2/session3_ws/src/demo_cpp_pkg
+CMAKE_SOURCE_DIR = /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/src/demo_cpp_pkg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/emmm/Desktop/ROS2/fishros/chapter2/session3_ws/build/demo_cpp_pkg
+CMAKE_BINARY_DIR = /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/build/demo_cpp_pkg
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/emmm/Desktop/ROS2/fishros/chapter2/session3_ws/build/demo_cpp_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/emmm/Desktop/ROS2/fishros/chapter2/session3_ws/src/demo_cpp_pkg /home/emmm/Desktop/ROS2/fishros/chapter2/session3_ws/src/demo_cpp_pkg /home/emmm/Desktop/ROS2/fishros/chapter2/session3_ws/build/demo_cpp_pkg /home/emmm/Desktop/ROS2/fishros/chapter2/session3_ws/build/demo_cpp_pkg /home/emmm/Desktop/ROS2/fishros/chapter2/session3_ws/build/demo_cpp_pkg/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/build/demo_cpp_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/src/demo_cpp_pkg /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/src/demo_cpp_pkg /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/build/demo_cpp_pkg /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/build/demo_cpp_pkg /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/build/demo_cpp_pkg/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

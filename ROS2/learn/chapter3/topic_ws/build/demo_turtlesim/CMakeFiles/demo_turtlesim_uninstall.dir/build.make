@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/emmm/Desktop/scnu_rm/ROS2/learn/chapter3/topic_ws/src/demo_turtlesim
+CMAKE_SOURCE_DIR = /home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/src/demo_turtlesim
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/emmm/Desktop/scnu_rm/ROS2/learn/chapter3/topic_ws/build/demo_turtlesim
+CMAKE_BINARY_DIR = /home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/demo_turtlesim
 
 # Utility rule file for demo_turtlesim_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/demo_turtlesim_uninstall.dir/compiler_depend.make
 include CMakeFiles/demo_turtlesim_uninstall.dir/progress.make
 
 CMakeFiles/demo_turtlesim_uninstall:
-	/usr/bin/cmake -P /home/emmm/Desktop/scnu_rm/ROS2/learn/chapter3/topic_ws/build/demo_turtlesim/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/demo_turtlesim/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 demo_turtlesim_uninstall: CMakeFiles/demo_turtlesim_uninstall
 demo_turtlesim_uninstall: CMakeFiles/demo_turtlesim_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/demo_turtlesim_uninstall.dir/clean:
 .PHONY : CMakeFiles/demo_turtlesim_uninstall.dir/clean
 
 CMakeFiles/demo_turtlesim_uninstall.dir/depend:
-	cd /home/emmm/Desktop/scnu_rm/ROS2/learn/chapter3/topic_ws/build/demo_turtlesim && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/emmm/Desktop/scnu_rm/ROS2/learn/chapter3/topic_ws/src/demo_turtlesim /home/emmm/Desktop/scnu_rm/ROS2/learn/chapter3/topic_ws/src/demo_turtlesim /home/emmm/Desktop/scnu_rm/ROS2/learn/chapter3/topic_ws/build/demo_turtlesim /home/emmm/Desktop/scnu_rm/ROS2/learn/chapter3/topic_ws/build/demo_turtlesim /home/emmm/Desktop/scnu_rm/ROS2/learn/chapter3/topic_ws/build/demo_turtlesim/CMakeFiles/demo_turtlesim_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/demo_turtlesim && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/src/demo_turtlesim /home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/src/demo_turtlesim /home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/demo_turtlesim /home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/demo_turtlesim /home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/demo_turtlesim/CMakeFiles/demo_turtlesim_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/demo_turtlesim_uninstall.dir/depend
 
